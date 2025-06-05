@@ -1,0 +1,32 @@
+.textFooter {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 29px 0;
+}
+
+.containerFooter {
+    height: 209px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoFooter {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+
+/* ----------------------------------Code responsive---------------------------------- */
+@media (max-width: 768px) {
+  .textFooter {
+    font-size: 12px;
+    margin: 20px 0 58px 0;
+    width: 120px;
+  }
+  }

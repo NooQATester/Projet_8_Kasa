@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.logoHeader {
+    height: 68px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+
+/* ----------------------------------Code responsive---------------------------------- */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .nav {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .link {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .logoHeader {
+    height: 35px;
+  }
+}
+
