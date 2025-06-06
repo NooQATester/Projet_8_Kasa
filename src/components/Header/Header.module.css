@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 100px;
+  padding: 45px 0;
 }
 
 .logoHeader {
@@ -11,7 +11,7 @@
 
 .nav {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .link {
@@ -22,6 +22,16 @@
 
 .active {
   text-decoration: underline;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -46,5 +56,19 @@
   .logoHeader {
     height: 35px;
   }
+
 }
 
+@media (max-width: 370px) {
+  .nav {
+    gap: 17px;
+  }
+
+  .link {
+    font-size: 11px;
+  }
+
+  .logoHeader {
+    height: 28px;
+  }
+}
