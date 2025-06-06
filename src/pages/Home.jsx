@@ -1,5 +1,12 @@
+import Banner from '../components/Banner';
+import imageBannerAccueil from '../assets/imageBannerAccueil.png';
+
 function Home() {
-  return <h2>Accueil</h2>;
+  return (
+    <>
+      <Banner image={imageBannerAccueil} text="Chez vous, partout et ailleurs" withShadow={true} />
+    </>
+  );
 }
 
 export default Home;

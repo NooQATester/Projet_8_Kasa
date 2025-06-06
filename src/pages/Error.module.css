@@ -1,0 +1,51 @@
+.textError {
+    color: #FF6060;
+    text-align: center;
+    margin: 0;
+}
+
+.textError h1 {
+    font-size: 288px;
+    margin: 0;
+    line-height: 1;
+    padding: 60px 0 139px 0;
+}
+
+.textError p {
+    font-size: 36px;
+    padding: 0 0 139px 0;
+    margin: 0;
+}
+
+.linkReturnHome {
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 139px 0;
+}
+
+/* ----------------------------------Code responsive---------------------------------- */
+@media (max-width: 768px) {
+  .textError p {
+    padding: 0 0 113px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
+
+  .textError h1 {
+    font-size: 96px;
+    padding: 113px 0 113px 0;
+  }
+
+  .linkReturnHome {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lineBreak {
+  display: block;
+  }
+}
