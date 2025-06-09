@@ -6,6 +6,7 @@
     margin: 0 auto 43px auto;
     width: 100%;
     max-width: 1240px;
+    box-sizing: border-box;
 }
 
 .withShadow {
@@ -22,6 +23,7 @@
     width: 100%;
     text-align: center;
     margin: 0;
+    width: 100%;
     text-shadow:
     -1px -1px 0 black,
      1px -1px 0 black,
@@ -43,9 +45,7 @@
   .bannerAccueil {
     box-shadow: none;
     height: 111px;
-    margin: 0 20px 22px 20px;
     border-radius: 10px;
-    width: calc(100% - 40px);
     margin: 0 auto 22px auto;
     max-width: 100%;
   }
@@ -59,5 +59,4 @@
     width: auto;
     transform: translateY(-50%);
   }
-
 }
