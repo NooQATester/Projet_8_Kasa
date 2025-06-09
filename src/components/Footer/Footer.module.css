@@ -2,31 +2,41 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 24px;
-    margin: 0 0 29px 0;
+    margin: 0;
 }
 
 .containerFooter {
     height: 209px;
-    width: auto;
+    width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    padding: 66px 20px 29px 20px;
 }
 
 .logoFooter {
     height: 45px;
     display: flex;
     justify-content: center;
-    margin-top: 66px;
 }
 
 /* ----------------------------------Code responsive---------------------------------- */
 @media (max-width: 768px) {
   .textFooter {
     font-size: 12px;
-    margin: 20px 0 58px 0;
+    margin-top: 20px;
     width: 120px;
   }
+
+  .containerFooter {
+    height: auto;
+    padding: 40px 20px 40px 20px;
   }
+
+  .logoFooter {
+    height: 35px;
+  }
+}

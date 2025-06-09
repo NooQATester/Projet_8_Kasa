@@ -1,9 +1,10 @@
 .card {
-    width: 340px;
-    height: 340px;
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* carré fluide */
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
 }
 
 .card h4 {
@@ -37,7 +38,7 @@
 /* ----------------------------------Code responsive---------------------------------- */
 @media (max-width: 768px) {
   .card {
-    width: auto;
+    aspect-ratio: unset;
     height: 255px;
   }
 }

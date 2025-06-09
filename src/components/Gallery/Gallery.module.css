@@ -11,10 +11,11 @@
 .containerGallery {
     background-color: #F6F6F6;
     border-radius: 25px;
-    padding: 56px 60px 43px 50px;
+    padding: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 50px;
+    width: 100%;
     max-width: 1240px;
     margin: 0 auto 50px auto;
     box-sizing: border-box;
@@ -23,9 +24,10 @@
 /* ----------------------------------Code responsive---------------------------------- */
 @media (max-width: 768px) {
   .containerGallery {
+    background-color: #FFFFFF;
     grid-template-columns: 1fr;
-    padding: 20px;
-    margin: 20px;
+    padding: 20px 20px 27px 20px;
+    margin: 0;
     gap: 20px;
   }
 }
