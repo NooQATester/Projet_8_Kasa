@@ -1,0 +1,25 @@
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  padding-bottom: 24px;
+}
+
+.tag {
+  background-color: #FF6060;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ----------------------------------Code responsive---------------------------------- */
+@media (max-width: 768px) {
+  .tag {
+    font-size: 10px;
+  }
+}
