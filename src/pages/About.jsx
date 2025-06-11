@@ -1,9 +1,8 @@
 import Banner from '../components/Banner';
 import imageBannerAPropos from '../assets/imageBannerAPropos.png';
-import styles from '../components/Layout/Layout.module.css';
-import Dropdowns from '../components/Dropdowns';
+import Dropdowns from '../components/Dropdowns/Dropdown';
 
-function APropos() {
+function About() {
   const dropdownData = [
   {
     title: 'Fiabilité',
@@ -25,15 +24,15 @@ function APropos() {
 
   return (
     <>
-    <div className={styles.layoutWrapper}>
+    <div>
       <Banner image={imageBannerAPropos} text=""/>
     </div>
 
     {dropdownData.map((item, index) => (
-    <Dropdowns key={index} title={item.title} content={item.content} />
+    <Dropdowns key={index} title={item.title} content={item.content} className="dropdown-about" />
     ))}
     </>
   );
 }
 
-export default APropos;
+export default About;

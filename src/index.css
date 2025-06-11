@@ -9,3 +9,11 @@ html, body, #root {
   display: flex;
   flex-direction: column;
 }
+
+.dropdown-about {
+  border-radius: 5px;
+}
+
+.dropdown-logement {
+  border-radius: 10px;
+}

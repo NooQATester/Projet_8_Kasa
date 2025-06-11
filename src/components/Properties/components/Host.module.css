@@ -1,0 +1,40 @@
+.host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF6060;
+  text-align: right;
+  max-width: 90px;
+  word-wrap: break-word;
+}
+
+.picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ----------------------------------Code responsive---------------------------------- */
+@media (max-width: 768px) {
+  .host {
+    justify-content: flex-start;
+  }
+
+  .name {
+    font-size: 12px;
+    max-width: 70px;
+  }
+
+  .picture {
+    width: 32px;
+    height: 32px;
+  }
+}
+
