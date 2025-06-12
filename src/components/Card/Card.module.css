@@ -1,6 +1,6 @@
 .card {
   width: 100%;
-  aspect-ratio: 1 / 1; /* carré fluide */
+  aspect-ratio: 1 / 1;
   position: relative;
   border-radius: 10px;
   overflow: hidden;

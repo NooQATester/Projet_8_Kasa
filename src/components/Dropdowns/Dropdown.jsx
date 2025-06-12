@@ -1,5 +1,5 @@
 import styles from './Dropdowns.module.css';
-import arrow from '../../assets/arrow.png';
+import arrow from '../../assets/arrow.svg';
 import { useState } from 'react';
 
 function Dropdowns({ title, content, className }) {
@@ -11,7 +11,7 @@ function Dropdowns({ title, content, className }) {
     <div className={styles.dropdownWrapper}>
         <div className={`${styles.containerDropdowns} ${className}`} onClick={toggleDropdown}>
             <h4 className={styles.titleDropdowns}>{title}</h4>
-            <img src={arrow} className={`${styles.arrow} ${isOpen ? styles.arrowUp : ''}`} alt={isOpen ? "Icône flèche vers le haut" : "Icône flèche vers le bas"}></img>
+            <img src={arrow} className={`${styles.arrow} ${isOpen ? styles.arrowUp : styles.arrowDown}`} alt={isOpen ? "Icône flèche vers le haut" : "Icône flèche vers le bas"}></img>
         </div>
         
         {isOpen && (

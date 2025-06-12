@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Carousel.module.css";
-import arrow from '../../../assets/arrow.png'; // ajuste le chemin si besoin
+import arrow from '../../../assets/arrow.svg';
 
 const Carousel = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

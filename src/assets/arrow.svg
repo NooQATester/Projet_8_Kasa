@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 121" width="96" height="121">
+	<title>arrow</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 12.83h96v119.64h-96z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g>
+			<path class="s0" d="m26 93.3l7 7.1 39.6-39.6-39.6-39.6-7 7.1 32.5 32.5z"/>
+		</g>
+	</g>
+</svg>

@@ -17,8 +17,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 96px;
-    height: 119.64px;
     cursor: pointer;
     z-index: 2;
     transition: transform 0.3s ease;
@@ -26,12 +24,12 @@
 
 .arrowLeft {
     left: 20px;
-    transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(180deg);
 }
 
 .arrowRight {
     right: 20px;
-    transform: translateY(-50%) rotate(270deg);
+    transform: translateY(-50%) rotate(360deg);
 }
 
 

@@ -21,6 +21,7 @@
     height: 45px;
     display: flex;
     justify-content: center;
+    filter: brightness(0) invert(1);
 }
 
 /* ----------------------------------Code responsive---------------------------------- */

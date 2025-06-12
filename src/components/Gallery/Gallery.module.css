@@ -11,7 +11,7 @@
 .containerGallery {
     background-color: #F6F6F6;
     border-radius: 25px;
-    /* padding: 50px; */
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 50px;
@@ -26,7 +26,7 @@
   .containerGallery {
     background-color: #FFFFFF;
     grid-template-columns: 1fr;
-    padding-bottom: 27px;
+    padding: 0 0 27px 0;
     margin: 0;
     gap: 20px;
   }
