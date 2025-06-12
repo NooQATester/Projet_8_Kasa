@@ -1,24 +1,24 @@
 .galleryLoading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FF6060;
-    font-size: 40px;
-    font-weight: 700;
-    height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF6060;
+  font-size: 40px;
+  font-weight: 700;
+  height: 200px;
 }
 
 .containerGallery {
-    background-color: #F6F6F6;
-    border-radius: 25px;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 50px;
-    width: 100%;
-    max-width: 1240px;
-    margin: 0 auto 50px auto;
-    box-sizing: border-box;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 50px;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto 50px auto;
+  box-sizing: border-box;
 }
 
 /* ----------------------------------Code responsive---------------------------------- */

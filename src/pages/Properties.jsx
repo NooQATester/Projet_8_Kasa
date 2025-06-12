@@ -14,7 +14,6 @@ const Properties = () => {
 
   const [properties, setProperties] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
 useEffect(() => {
   const fetchProperties = async () => {
@@ -45,7 +44,6 @@ useEffect(() => {
 }, [id, navigate]);
 
   if (loading) return <p>Chargement...</p>;
-  if (error) return <p>{error}</p>;
   if (!properties) return <p>Logement non trouvé.</p>;
 
   return (

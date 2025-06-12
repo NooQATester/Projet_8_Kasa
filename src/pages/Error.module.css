@@ -1,28 +1,28 @@
 .textError {
-    color: #FF6060;
-    text-align: center;
-    margin: 0;
+  color: #FF6060;
+  text-align: center;
+  margin: 0;
 }
 
 .textError h1 {
-    font-size: 288px;
-    margin: 0;
-    line-height: 1;
-    padding: 60px 0 139px 0;
+  font-size: 288px;
+  margin: 0;
+  line-height: 1;
+  padding: 60px 0 139px 0;
 }
 
 .textError p {
-    font-size: 36px;
-    padding: 0 0 139px 0;
-    margin: 0;
+  font-size: 36px;
+  padding: 0 0 139px 0;
+  margin: 0;
 }
 
 .linkReturnHome {
-    color: black;
-    display: inline-block;
-    font-size: 18px;
-    text-align: center;
-    padding: 0 0 139px 0;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 0 139px 0;
 }
 
 /* ----------------------------------Code responsive---------------------------------- */

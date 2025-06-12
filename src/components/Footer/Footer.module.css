@@ -1,27 +1,27 @@
 .textFooter {
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 24px;
-    margin: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
 }
 
 .containerFooter {
-    height: 209px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 66px 20px 29px 20px;
+  height: 209px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 66px 20px 29px 20px;
 }
 
 .logoFooter {
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    filter: brightness(0) invert(1);
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  filter: brightness(0) invert(1);
 }
 
 /* ----------------------------------Code responsive---------------------------------- */
