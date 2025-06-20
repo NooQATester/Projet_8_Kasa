@@ -16,7 +16,7 @@ function Dropdowns({ title, content, className }) {
         
         {isOpen && (
             <div className={styles.dropdownContent}>
-                <p className={styles.textDropdowns}>{content}</p>
+                <div className={styles.textDropdowns}>{content}</div>
             </div>
         )}
     </div>
